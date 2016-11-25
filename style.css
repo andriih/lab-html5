@@ -8,6 +8,7 @@
 	background-color: grey;
 }
 .footer{
+	clear: both;
 	height: 100px;
 	background-color:grey;
 }
@@ -17,7 +18,18 @@
 .sidebar{
 	width: 300px;
 	background-color: blue;
+	float: left;
 }
 .main{
 	background-color: #7E7575;
+}
+.content{
+	float:right;
+	width: 980px;
+	background-color: #68C755;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear:both;
 }
